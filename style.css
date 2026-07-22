@@ -304,3 +304,41 @@ color:black;
 box-shadow:0 0 20px #2cff72;
 
 }
+
+@media (max-width:768px){
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+#videos{
+grid-template-columns:1fr;
+padding:40px 20px;
+}
+
+.card{
+padding:30px;
+}
+
+header{
+flex-direction:column;
+gap:15px;
+padding:15px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+footer{
+flex-direction:column;
+align-items:center;
+}
+
+}
