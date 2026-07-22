@@ -264,3 +264,43 @@ transform:translateY(0);
 }
 
 }
+
+footer{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+padding:50px 20px;
+
+}
+
+footer a{
+
+text-decoration:none;
+
+color:white;
+
+background:#151515;
+
+padding:15px 28px;
+
+border-radius:50px;
+
+transition:.3s;
+
+border:1px solid #2cff72;
+
+}
+
+footer a:hover{
+
+background:#2cff72;
+
+color:black;
+
+box-shadow:0 0 20px #2cff72;
+
+}
