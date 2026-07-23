@@ -399,23 +399,20 @@ color:white;
 
 }
 
+html{
+scroll-snap-type:y mandatory;
+}
+
 #explore{
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:30px;
+height:100vh;
+overflow-y:scroll;
+scroll-snap-type:y mandatory;
 }
 
 .short{
-height:90vh;
-width:350px;
+height:100vh;
+scroll-snap-align:start;
 display:flex;
-flex-direction:column;
 justify-content:center;
-}
-
-.short iframe{
-height:75vh;
-width:100%;
-border-radius:20px;
+align-items:center;
 }
