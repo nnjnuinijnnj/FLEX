@@ -404,15 +404,39 @@ scroll-snap-type:y mandatory;
 }
 
 #explore{
+
 height:100vh;
+
 overflow-y:scroll;
+
 scroll-snap-type:y mandatory;
+
 }
 
 .short{
+
 height:100vh;
-scroll-snap-align:start;
+
+width:100%;
+
 display:flex;
+
 justify-content:center;
+
 align-items:center;
+
+scroll-snap-align:start;
+
+}
+
+.short iframe{
+
+width:360px;
+
+height:640px;
+
+border:none;
+
+border-radius:20px;
+
 }
